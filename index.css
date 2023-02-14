@@ -1,0 +1,30 @@
+a{
+	text-decoration: none;
+}
+.card-container{
+	width: 1300px;
+	display: flex;
+	justify-content: space-around;
+}
+.card{
+	width: 230px;
+	height: 270px;
+	transition: 0.15s;
+}
+.card img{
+	width: 230px;
+	height: 230px;
+}
+.card:hover{
+	outline: 3px solid yellow;
+}
+.s{
+	height: 258px;
+}
+main{
+	margin-top: 50px;
+}
+a p{
+	font-size: 20px;
+	color: black;
+}
