@@ -1,0 +1,43 @@
+.card{
+	width: 260px;
+	height: 300px;
+}
+.content{
+	border: 1px solid grey;
+	border-radius: 3%;
+	display: flex;
+	width: 50%;
+}
+.text2{
+	margin-left: 20px;;
+}
+.text2 i{
+	color: lightgrey;
+}
+.allContent{
+	display: flex;
+}
+.playlist{
+	border: 1px solid grey;
+	border-radius: 3%;
+}
+.elem{
+	display: flex;
+	align-items: center;
+	border-top: 1px solid grey;
+	border-radius: 3%;
+}
+.elem:hover{
+	outline: 3px solid yellow;
+	cursor: pointer;
+}
+.elem img{
+	width: 40px;
+
+}
+.elemp{
+	float: rigth;
+}
+.progress{
+	width: 300px;
+}
